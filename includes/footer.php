@@ -1,5 +1,4 @@
-<?PHP
-
+<?php
 ?>
 
 <footer><p>TEST</p></footer>
