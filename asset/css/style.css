@@ -1,5 +1,30 @@
 @import "reset.css";
 
-body{
+nav{
 
+
+    background-color: black;
+    opacity: 80%;
+    height: 50px;
+    width:100%;
+
+}
+
+.wrap{
+    width: 800px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li a{
+
+    padding: 20px;
+color: azure;
+}
+
+
+#peluche{
+    margin-top: -100px;
+    width: 100%;
 }
