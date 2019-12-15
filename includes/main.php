@@ -4,23 +4,23 @@
 
 if(isset($_GET['page'])){
 
-
     $page=$_GET['page'];
 }
 else{
 
     $page='accueil';
 }
+
 $list=glob("./includes/*.inc.php");
-$page="./includes".$page.".inc.php";
+$page="./includes/".$page.".inc.php";
 
 if(in_array($page,$list)){
 
-    require $page;
+    include_once $page;
 }
 else{
 
-    require "./includes/accueil.inc.php";
+    include_once "./includes/accueil.inc.php";
 }
 
 
