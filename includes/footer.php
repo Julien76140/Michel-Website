@@ -1,6 +1,6 @@
 <?php
 ?>
 
-<footer><p>TEST</p></footer>
+<footer ><div class="pied"><p>loremfezj,nifezjnfoiezjgfiezjgioezjgeiozjgezoijoigez</p></div></footer>
 </body>
 </html>

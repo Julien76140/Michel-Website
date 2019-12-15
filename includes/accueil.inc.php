@@ -1,7 +1,6 @@
 
-
 <div class="container-fluid">
-    <div class="wrap">
+    <div class="col-lg-5 wrap">
 
 <div class="">
 <div class="biographie">
@@ -21,7 +20,6 @@ aussi le hockey aquatique dont je suis champion de Vendée avec notre équipe le
 <h2>Vidéo de curling sur gazon</h2>
 
 
-<iframe width="500" height="500" src="https://www.youtube.com/embed/bH7pDi9EEG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 

@@ -1,30 +1,72 @@
 @import "reset.css";
 
+body{
+    background: url("../image/space.gif");
+    background-size: 100% 100% ;
+    font-family: Arial;
+    color: white;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+html{
+    height: 100%;
+}
+
+
 nav{
 
-
-    background-color: black;
-    opacity: 80%;
-    height: 50px;
-    width:100%;
+    background-color: ThreeDDarkShadow;
+    opacity: 90%;
+    min-height: 93vh;
 
 }
 
 .wrap{
-    width: 800px;
+    margin-top:-90vh;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-.menu{
-    display: flex;
-    justify-content: flex-end;
-}
+
 header nav ul li a{
+    display: block;
+    color: black;
+    line-height: 40px;
+}
+ul{
 
-    padding: 20px;
-color: azure;
+    margin-top: -40vh;
+}
+.pied{
+    border-top: 5px solid darkgray;
+    background-color: black;
+    opacity: 60%;
+    min-height: 7.1vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.pied p{
+
+    padding: 10px;
+
+}
+header nav ul :hover{
+
+
+
+}
+li{
+    padding: 10px;
+    margin-left: -15px;
+}
+li:hover{
+    background-color: lightblue;
+    opacity: 70%;
 }
 
 
-#peluche{
-    margin-top: -100px;
-    width: 100%;
-}
