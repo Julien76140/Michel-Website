@@ -1,6 +1,13 @@
 
 header{
-    margin-top: 100px;
+    margin-top: 60px;
+}
+
+
+nav {
+   box-shadow: 0px 2px 10px black;
+    background-color: whitesmoke;
+    opacity: 70%;
 }
 
 @media screen and (min-width: 991px){
@@ -22,4 +29,60 @@ header{
 }
 .break{
     display: inline-block;
+}
+
+h1,h2,h3{
+
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+p{
+
+    text-align: justify;
+    font-size:18px;
+    line-height: 30px;
+}
+#imgelon{
+    margin-top: 30px;
+
+    border-radius: 200px;
+
+}
+
+.tetecv{
+
+    background-color: floralwhite;
+
+}
+
+.musk{
+text-align: center;
+
+
+}
+#titreelon{
+
+    margin-top: 20px;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 300;
+}
+#titremusk{
+    text-align: left;
+    font-size: 80px;
+    margin-top: -60px;
+
+}
+#information{
+    margin-top: 100px;
+
+}
+#description {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+
 }

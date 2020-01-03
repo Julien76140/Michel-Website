@@ -10,7 +10,7 @@
 <h1>Présentation et résumer des projets</h1>
 
 
-<div class="row">/*aligne sur une ligne mais j'aurais pu utiliser float left ou display inline-block ect*/
+<div class="row"><!--aligne sur une ligne mais j'aurais pu utiliser float left ou display inline-block ect--!>
 <div class="col-lg-4 ">
 
     <div class="break">
@@ -42,5 +42,25 @@
     </div>
 </div>
 
+<div class="row">
+    <div class="col-lg-6">
+        <div class="habitation">
+
+            <h3>Habitation Marsienne</h3>
+<p>À travers un concours, la Nasa invite des ingénieurs et architectes à travers le monde entier à mettre au point les habitats qui accueilleront les premiers visiteurs humains de Mars.et aussi ceux qui séjourneront sur la Lune. Des abris à toute épreuve qui devront être fabriqués sur place.</p>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="terraformation">
+
+            <h3>Terraformation de Mars</h3>
+
+            <p>La terraformation de Mars est le processus hypothétique par lequel le climat, la surface, et les propriétés actuelles de Mars pourraient être délibérément modifiés afin de rendre la planète habitable pour les humains et toute autre forme de vie terrestre.</p>
+        </div>
+    </div>
 </div>
+
+</div>
+
+
 
