@@ -1,6 +1,14 @@
 
+body{
+
+    font-family: Arial;
+     font-size: 20px;
+    line-height: 30px;
+}
+
+
 header{
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 
@@ -22,20 +30,20 @@ nav {
 
 .wrap{
 
-
+    margin-top: 10px;
     width: 100%;
 }
 
 }
-.break{
-    display: inline-block;
-}
+
 
 h1,h2,h3{
 
-
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
+    color:darkblue;
 
 }
 p{
@@ -45,7 +53,7 @@ p{
     line-height: 30px;
 }
 #imgelon{
-    margin-top: 30px;
+    margin-top: 20px;
 
     border-radius: 200px;
 
@@ -64,7 +72,7 @@ text-align: center;
 }
 #titreelon{
 
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
     font-size: 60px;
     font-weight: 300;
@@ -72,7 +80,7 @@ text-align: center;
 #titremusk{
     text-align: left;
     font-size: 80px;
-    margin-top: -60px;
+    margin-top: -10px;
 
 }
 #information{
@@ -83,6 +91,81 @@ text-align: center;
 
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     text-align: justify;
+
+}
+.row{
+    width: 100%;
+}
+
+.competence h1,.logiciel h1,.langue h1{
+
+    font-weight: 600;
+    font-size: 35px;
+
+}
+.competence,.logiciel,.langue,.annee,.formation,.entreprise,.annees,.interet{
+
+    padding: 20px;
+}
+
+
+.annee p,.annees p{
+
+    font-size: 15px;
+}
+.logiciel{
+
+    margin-bottom: 50px;
+}
+.formation,.entreprise{
+
+    margin-bottom: 50px;
+}
+.article{
+
+    margin-top: 150px;
+}
+#titrepres{
+    margin-top: 50px;
+}
+
+#titrehab,#titreterra{
+
+    margin-top: 50px;
+}
+#formcontact{
+margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 150px;
+}
+ #formcontact input{
+display: block;
+justify-content: flex-end;
+}
+
+ #pied{
+     background-color: whitesmoke;
+     padding: 20px;
+     width: 100%;
+margin-top: 50px;
+border-top: solid black 2px;
+
+ }
+#aventurier{
+    margin-top: 100px;
+
+}
+#aventurier p,#aventurier label{
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#aventurier input{
+
+    margin-bottom: 43.2vh;
 
 }

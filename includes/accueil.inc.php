@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+<div class="container-fluid article">
 
 
 <h1>Voyage dans le système et voyage interstellaire </h1>
@@ -7,7 +7,7 @@
 <h2>Présentation du congrès </h2>
 <p>La Terre ne tourne pas seule autour du Soleil. D’autres planètes accompagnées de leurs satellites, des astéroïdes et comètes voyagent avec elle. Ces astres présentent des points communs ou des différences avec notre planète, mais aucune n’est semblable : elles ont toutes une identité particulière.Tout un monde multiple et varié que cette séance vous invite à découvrir à travers un périple de 6 milliards de kilomètres.VDSS&VIST (Voyage dans le systeme solaire et voyage interstellaire) est un nouveau congrés scientifiques qui a pour but de vous présentez des projets prometteurs sur le thème des voyage spaciaux mais aussi de la colonisation de l'homme sur Mars.</p>
 
-<h1>Présentation et résumer des projets</h1>
+<h1 id="titrepres">Présentation et résumer des projets</h1>
 
 
 <div class="row"><!--aligne sur une ligne mais j'aurais pu utiliser float left ou display inline-block ect--!>
@@ -27,8 +27,7 @@
 
         <h3>Mission habité vers Mars (NASA)</h3>
 
-<p>Le but de cette mission est denvoyer l'homme sur mars et de la faire revenir sur terre comme la mission sur la Lune.Cette mission permettrais d'en apprendre plus sur Mars mais de voir aussi comment les Hommes réagissent à un sejour sur la planète rouge.Cette mission est probablement la premiere étape avant une quelquonques colonisation de la planète. Les missions habitées vers Mars ont fait l'objet d'un très grand nombre d'études. Un document de la NASA de 2001 recensait ainsi près de 1000 projets plus ou moins détaillés, produits depuis 1950 au sein de l'agence spatiale américaine ou dans d'autres institutions. Le programme est piloté principalement par la NASA .</p>
-        </div>
+<p>Le but de cette mission est denvoyer l'homme sur mars et de la faire revenir sur terre comme la mission sur la Lune.Cette mission permettrais d'en apprendre plus sur Mars mais de voir aussi comment les Hommes réagissent à un sejour sur la planète rouge.Cette mission est probablement la premiere étape avant une quelquonques colonisation de la planète. Les missions habitées vers Mars ont fait l'objet d'un très grand nombre d'études. Un document de la NASA de 2001 recensait ainsi près de 1000 projets plus ou moins détaillés, produits depuis 1950 au sein de l'agence spatiale américaine ou dans d'autres institutions. Le programme est piloté principalement par la NASA .</p></div>
 
     </div>
 
@@ -46,14 +45,14 @@
     <div class="col-lg-6">
         <div class="habitation">
 
-            <h3>Habitation Marsienne</h3>
+            <h3 id="titrehab">Habitation Marsienne</h3>
 <p>À travers un concours, la Nasa invite des ingénieurs et architectes à travers le monde entier à mettre au point les habitats qui accueilleront les premiers visiteurs humains de Mars.et aussi ceux qui séjourneront sur la Lune. Des abris à toute épreuve qui devront être fabriqués sur place.</p>
         </div>
     </div>
     <div class="col-lg-6">
         <div class="terraformation">
 
-            <h3>Terraformation de Mars</h3>
+            <h3 id="titreterra">Terraformation de Mars</h3>
 
             <p>La terraformation de Mars est le processus hypothétique par lequel le climat, la surface, et les propriétés actuelles de Mars pourraient être délibérément modifiés afin de rendre la planète habitable pour les humains et toute autre forme de vie terrestre.</p>
         </div>

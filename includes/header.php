@@ -7,8 +7,9 @@
     <ul class="navbar-nav">
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=accueil">Accueil</a></liclass>
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=cv">Curriculum Vitae</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=puissance">La puissance</a></li>
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=contact">Contact</a></li>
-        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=mention">Mention légale</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=mention">Mentions légales</a></li>
     </ul>
    </div>
    </div>
