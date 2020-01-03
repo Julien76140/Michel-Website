@@ -1,0 +1,25 @@
+
+header{
+    margin-top: 100px;
+}
+
+@media screen and (min-width: 991px){
+
+
+    .menu {
+        display: flex;
+
+        justify-content: flex-end;
+
+    }
+
+.wrap{
+
+
+    width: 100%;
+}
+
+}
+.break{
+    display: inline-block;
+}

@@ -1,5 +1,5 @@
 
-<main>
+<main class="wrap">
     <?PHP
 
 if(isset($_GET['page'])){
