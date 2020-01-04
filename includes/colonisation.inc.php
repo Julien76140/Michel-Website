@@ -1,12 +1,12 @@
 
-<div class="container-fluid descolo">
+<div class="container-fluid desmars">
     <div class="row">
         <div class="col-lg-4">
 
-            <section id="descolo1">
+            <section id="desmars1">
 
                 <img src="./asset/image/colo2.jpg" width="100%" height="300px">
-                <h1Colonisation de Mars Space X</h1>
+                <h1>Colonisation de Mars Space X</h1>
 
     <p>Avec son Système de Transport Interplanétaire, Elon Musk veut coloniser Mars. Un projet fou de plusieurs centaines de milliards de dollars avec une flotte de 1 000 vaisseaux spatiaux et une ville d'un million d'habitants à terme.</p>
 
@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="descolo2">
+            <section id="desmars2">
 
                 <img src="./asset/image/colo2.jpg" width="100%" height="300px">
                 <h1>Pourquoi Mars ?</h1>
@@ -24,7 +24,7 @@
 
         <div class="col-lg-4">
 
-            <section id="descolo3">
+            <section id="desmars3">
 
                 <img src="./asset/image/colo3.jpg" width="100%" height="300px">
                 <h1>Dans combien de temps ?</h1>

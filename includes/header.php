@@ -6,7 +6,7 @@
     <div class="menu col-lg-12">
     <ul class="navbar-nav">
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=accueil">Accueil</a></li>
-        <li class="nav-item font-weight-bold dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.php?page=projet">Les projets</a>
+        <li class="nav-item font-weight-bold dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Les projets</a>
             <div class="dropdown-menu">
             <a class="nav-link" href="index.php?page=break" >Breakthough strashot</a>
             <a class="nav-link " href="index.php?page=mars" >Mission habité vers Mars (NASA)</a>
@@ -18,9 +18,12 @@
         </li>
 
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=cv">Curriculum Vitae</a></li>
-        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=puissance">La puissance</a></li>
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=contact">Contact</a></li>
         <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=mention">Mentions légales</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=puissance">Jeux bonus</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=table">Table </a></li>
+
+
     </ul>
    </div>
    </div>
