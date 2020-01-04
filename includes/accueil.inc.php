@@ -2,7 +2,7 @@
 <div class="container-fluid article">
 
 
-<h1 style="font-size: 60px;">Voyage dans le système solaire et voyage interstellaire </h1><!--c'est moche d'écrire style dans une balise mais je le fais pour le fun!-->
+<h1>Voyage dans le système solaire et voyage interstellaire </h1>
 
 <h2>Présentation du congrès </h2>
 <p>&nbsp;La Terre ne tourne pas seule autour du Soleil. D’autres planètes accompagnées de leurs satellites, des astéroïdes et comètes voyagent avec elle. Ces astres présentent des points communs ou des différences avec notre planète, mais aucune n’est semblable : elles ont toutes une identité particulière.Tout un monde multiple et varié que cette séance vous invite à découvrir à travers un périple de 6 milliards de kilomètres.<abbr title=" Voyage dans le système solaire et voyage interstellaire" >VDSS&VIST</abbr> est un nouveau congrés scientifiques qui a pour but de vous présentez des projets prometteurs sur le thème des voyage spaciaux mais aussi de la colonisation de l'homme sur Mars.</p>

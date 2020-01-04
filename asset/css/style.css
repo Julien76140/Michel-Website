@@ -15,7 +15,11 @@ header{
 nav {
    box-shadow: 0px 2px 10px black;
     background-color: whitesmoke;
-    opacity: 70%;
+}
+.dropdown-menu{
+background-color: whitesmoke;
+    border: 2px solid black;
+    width: 100%;
 }
 
 @media screen and (min-width: 991px){
@@ -27,7 +31,26 @@ nav {
         justify-content: flex-end;
 
     }
+    h2,h3{
 
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 50px;
+        color:darkblue;
+
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        color:darkblue;
+        line-height: 50px;
+
+
+    }
 .wrap{
 
     margin-top: 10px;
@@ -37,15 +60,7 @@ nav {
 }
 
 
-h1,h2,h3{
 
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 50px;
-    color:darkblue;
-
-}
 p{
 
     text-align: justify;
@@ -128,11 +143,6 @@ text-align: center;
 
     margin-top: 150px;
 }
-#titrepres{
-    margin-top: 50px;
-    font-size: 50px;
-}
-
 
 #formcontact{
 margin-left: auto;
@@ -187,4 +197,30 @@ border-top: solid black 2px;
 .desbreak{
 
     margin-top: 150px;
+}
+
+@media screen and  (max-width: 991px) {
+
+
+    h2,h3{
+
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 50px;
+        color:darkblue;
+
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        color:darkblue;
+
+
+    }
+
+
 }
