@@ -11,19 +11,37 @@
     <form action="" method="POST"/>
 <label>Réponse :</label>
 <input type="text" name="solution"/>
-</form>
+    <input type="submit" name="Valider"/>
+
+    </form>
 </section>
 
 <?php
 
 
 
-if(isset($_POST['solution'])){
+if(isset($_POST['Valider'])){
 
     $connect=mysqli_connect('localhost','root','','michel');
 
 
-    $requete="SELECT INTO enigme (solution) VALUES WHERE id=2";
+    $requete="SELECT * FROM enigme";
+
+    if($resultat=mysqli_query($connect,$requete)){
+
+
+        while ($donnees=mysqli_fetch_assoc($resultat)) {
+
+            if ($donnees['solution']==$_POST['solution']){
+
+                echo "yes";
+
+            }
+
+
+
+        }
+        }
 
 
 
