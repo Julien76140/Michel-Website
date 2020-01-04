@@ -2,8 +2,8 @@
 body{
 
     font-family: Arial;
-     font-size: 20px;
-    line-height: 30px;
+     font-size: 22px;
+    line-height: 25px;
 }
 
 
@@ -130,12 +130,10 @@ text-align: center;
 }
 #titrepres{
     margin-top: 50px;
+    font-size: 50px;
 }
 
-#titrehab,#titreterra{
 
-    margin-top: 50px;
-}
 #formcontact{
 margin-left: auto;
     margin-right: auto;
@@ -168,4 +166,25 @@ border-top: solid black 2px;
 
     margin-bottom: 43.2vh;
 
+}
+.article p{
+
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.article img,.desbreak img,.desmars img,.descolo img{
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.break,.mars,.colo,.habitation,.terraformation{
+
+    padding: 20px;
+    border-right: solid 2px black;
+}
+.desbreak{
+
+    margin-top: 150px;
 }

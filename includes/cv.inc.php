@@ -26,7 +26,7 @@
 
 <div class="col-lg-12">
     <section id="description">
-        <p>La première question qu'on se pose en voyant qu'il y a un faux CV d'Elon Musk dans un site de congrès scientifique et "Qu'est ce que ça fou là ?" , La réponse est simple j'en sais rien je dois en créer un,Mais tu vas me dire pourquoi faire tout ça si c'est pour au final ça ne correspondent pas au reste du site ? Bah en fait j'essaye désespérément gagner en contenu pour remplir ce foutu CV qui n'a pas lieu d'être et qui sera probablement <abbr title="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici"> HS</abbr> par rapport aux reste du site . Et aussi parceque jai pas de foutu idée pour un CV donc je fais comme je peux.  </p>
+        <p>La première question qu'on se pose en voyant qu'il y a un faux CV d'Elon Musk dans un site de congrès scientifique et "Qu'est ce que ça fou là ?" , La réponse est simple j'en sais rien je dois en créer un,Mais tu vas me dire pourquoi faire tout ça si c'est pour au final ça ne correspondent pas au reste du site ? Bah en fait j'essaye désespérément gagner en contenu pour remplir ce foutu CV qui n'a pas lieu d'être et qui sera probablement <abbr title="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici"> HS</abbr> par rapport aux reste du site . Et aussi parceque j'ai pas de foutu idée pour un CV donc je fais comme je peux.  </p>
     </section>
 </div>
 
