@@ -12,8 +12,6 @@
     <label>Réponse :</label>
     <input type="text" name="solution"/>
     <input type="submit" name="Valider"/>
-    </form>
-</section>
 
 <?php
 
@@ -34,7 +32,7 @@ if (isset($_POST['Valider'])) {
 
                 header('Location:./puissance 4/index.php  ');
             } else {
-                echo "Mauvaise réponse ";
+                echo " <p>Mauvaise réponse !</p></form></section>";
                 break;
 
             }

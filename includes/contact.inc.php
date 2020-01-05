@@ -1,6 +1,6 @@
 <section id="formcontact">
     <h1>Contact</h1>
-    <form method="POST" enctype='multipart/form-data' action="./includes/process.php">
+    <form method="POST" enctype='multipart/form-data' action="./includes/process.php"><!-- enctype OBLIGATOIRE car type FILE!-->
         <label>Nom :</label>
         <input type="text" name="nom" required/><br/>
         <label>Prénom :</label>

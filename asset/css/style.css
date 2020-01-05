@@ -423,3 +423,7 @@ table {
     font-size: 1.5em;
     color: darkblue;
 }
+abbr{
+
+    font-weight: 600;
+}

@@ -33,7 +33,7 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
     } else {
         if (isset($_FILES['photo']['name']) && ($_FILES['photo']['error'] == UPLOAD_ERR_OK)) {
 
-            $chemin = '../asset/image/';// copie l'image dans le repertoire image
+            $chemin = '../asset/image/';// copie l'image dans le repertoire image qui se trouve dans asset
             move_uploaded_file($_FILES['photo']['tmp_name'], $chemin . $_FILES['photo']['name']);
 
 
@@ -53,5 +53,5 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
 } else {
 
 
-    echo "erreur";
+    echo "Erreur durant l'envoie !";
 }
