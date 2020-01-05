@@ -1,281 +1,357 @@
 
-body{
 
-    font-family: Arial,SansSerif,"Comic Sans MS";
-     font-size: 22px;
+body {
+    font-family: Arial, SansSerif, "Comic Sans MS";
+    font-size: 22px;
     line-height: 25px;
     background: linear-gradient(ghostwhite, white);
+    height: 100%;
 }
 
 
-header{
-    margin-top: 55px;
+header {
+    margin-top: 60px;
 }
 
 
 nav {
-   box-shadow: 0px 2px 10px black;
+    box-shadow: 0px 2px 10px black;
     background-color: whitesmoke;
 }
-.dropdown-menu{
-background-color: whitesmoke;
+
+.dropdown-menu {
+    background-color: whitesmoke;
     border: 2px solid black;
     width: 100%;
 }
-.dropdown-menu a{
 
+.dropdown-menu a {
     border-bottom: black solid 3px;
 }
 
-@media screen and (min-width: 991px){
-
+@media screen and (min-width: 991px) {
 
     .menu {
         display: flex;
 
         justify-content: flex-end;
-
     }
-    h2,h3{
+
+    h2, h3 {
 
         font-size: 30px;
         font-weight: 600;
         text-align: center;
         margin-bottom: 50px;
-        color:darkblue;
+        color: darkblue;
 
     }
-    h1{
+
+    h1 {
         font-size: 50px;
         font-weight: 600;
         text-align: center;
         margin-bottom: 50px;
         margin-top: 50px;
-        color:darkblue;
+        color: darkblue;
         line-height: 50px;
 
-
     }
-.wrap{
 
-    margin-top: 10px;
-    width: 100%;
-}
 
 }
 
 
-
-p{
+p {
 
     text-align: justify;
-    font-size:18px;
+    font-size: 18px;
     line-height: 30px;
 }
-#imgelon{
+
+.wrap {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    content: "";
+    display: block;
+}
+
+#imgelon {
     margin-top: 20px;
-
-    border-radius: 200px;
-
+    border-radius: 350px;
 }
 
-.tetecv{
-
+.tetecv {
     background-color: floralwhite;
+}
+
+.musk {
+    text-align: center;
 
 }
 
-.musk{
-text-align: center;
-
-
-}
-#titreelon{
+#titreelon {
 
     margin-top: 40px;
     text-align: left;
     font-size: 60px;
     font-weight: 300;
 }
-#titremusk{
+
+#titremusk {
     text-align: left;
     font-size: 80px;
     margin-top: -10px;
 
 }
-#information{
+
+#information {
     margin-top: 100px;
 
 }
+
 #description {
 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin: 20px 100px 50px 100px;
     text-align: justify;
 
 }
-.row{
+
+.row {
     width: 100%;
 }
 
-.competence h1,.logiciel h1,.langue h1{
+.competence h1, .logiciel h1, .langue h1 {
 
     font-weight: 600;
     font-size: 35px;
 
 }
-.competence,.logiciel,.langue,.annee,.formation,.entreprise,.annees,.interet{
+
+.competence, .logiciel, .langue, .annee, .formation, .entreprise, .annees, .interet {
 
     padding: 20px;
 }
 
 
-.annee p,.annees p{
+.annee p, .annees p {
 
     font-size: 15px;
 }
-.logiciel{
+
+.logiciel, .formation, .entreprise {
 
     margin-bottom: 50px;
 }
-.formation,.entreprise{
 
-    margin-bottom: 50px;
-}
-.article{
+.article, .desbreak {
 
     margin-top: 150px;
 }
 
-#formcontact{
-margin-left: auto;
-    margin-right: auto;
+#formcontact {
+
+    margin: 0 auto 150px auto;
     width: 800px;
-    margin-top: 150px;
-}
- #formcontact input{
-display: block;
-justify-content: flex-end;
+    padding: 5px;
+
+    background-color: lightsteelblue;
+    border-radius: 10px;
 }
 
- #pied{
-     background-color: whitesmoke;
-     padding: 20px;
-     width: 100%;
-margin-top: 50px;
-border-top: solid black 2px;
+#formcontact input{
 
- }
-#aventurier{
+    display: block;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pied {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: solid black 2px;
+    position: relative;
+    bottom: 0;
+
+}
+
+#aventurier {
     margin-top: 100px;
 
 }
-#aventurier p,#aventurier label{
 
-    margin-left: 50px;
-    margin-right: 50px;
+#aventurier p, #aventurier label {
+
+    margin: 0 50px 0 50px;
 }
-#aventurier input{
 
+#aventurier input {
     margin-bottom: 43.2vh;
-
 }
-.article p{
 
+.article p {
     font-size: 24px;
     line-height: 40px;
 }
 
-.article img,.desbreak img,.desmars img,.descolo img{
+.article img, .desbreak img, .desmars img, .descolo img {
 
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
     border-radius: 10px;
 }
-.break,.mars,.colo,.habitation,.terraformation,#desbreak1,#desbreak2,#desbreak3,#descolo3,#descolo4,#descolo5,#descolo6,#descolo7,#desmars1,#desmars2,#desmars3{
+
+.break, .mars, .colo, .habitation, .terraformation, #desbreak1, #desbreak2, #desbreak3, #descolo3, #descolo4, #descolo5, #descolo6, #descolo7, #desmars1, #desmars2, #desmars3 {
 
     padding: 20px;
     border-right: solid 2px black;
-}
-.desbreak{
-
-    margin-top: 150px;
 }
 
 @media screen and  (max-width: 991px) {
 
 
-    h2,h3{
+    h2, h3 {
 
         font-size: 30px;
         font-weight: 600;
         text-align: center;
         margin-bottom: 50px;
-        color:darkblue;
+        color: darkblue;
 
     }
-    h1{
+
+    h1 {
         font-size: 25px;
         font-weight: 600;
         text-align: center;
         margin-bottom: 50px;
         margin-top: 50px;
-        color:darkblue;
+        color: darkblue;
 
 
     }
 }
 
-#descolo3{
+#descolo3 {
 
     margin-bottom: 50px;
 }
-img{
 
+.article img, img {
+    width: 100%;
+    height: 300px;
     border-radius: 10px;
 }
-.centrehab{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+
+.centrehab {
+    margin: 100px auto 0 auto;
+
 }
 
-#pres{
+#pres {
 
     padding: 30px;
 }
-#formcontact{
 
-  margin-bottom: 150px;
+#formcontact {
+margin-top: 100px;
+    margin-bottom: 150px;
 
- }
+}
 
 table td {
 
-padding: 20px;
+    padding: 20px;
     border: black solid 2px;
 }
 
 .affichage h1 {
 
-    margin-top:100px ;
+    margin-top: 100px;
 
 }
-table{
+label,textarea{
 
-    width :100%;
-    margin-bottom:575px ;
+display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-#imgtable{
+label{
+
+    padding: 3px;
+}
+
+
+input ,textarea{
+
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    padding: 2px;
+    border-bottom: 2px solid black;
+}
+
+#valider{
+
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(120deg,#3498DB,#8E44AD);
+    background-size: 200%;
+    color: white;
+
+}
+#valider:hover{
+
+animation-duration: .5s;
+    animation-name: valide;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes valide {
+    from{
+background-position: left;
+    }
+
+    to{
+        background-position: right;
+
+    }
+}
+
+
+table {
+
+    width: 100%;
+    margin-bottom: 575px;
+}
+
+#imgtable {
 
     width: 200px;
     height: 150px;
     padding: 0;
 }
-#imgtable img{
+
+#imgtable img {
 
     width: 100%;
     height: 200px;
+}
+
+#pdf,#langue,#language,#pdfen {
+    display: flex;
+    justify-content: center;
+
+}
+
+#droit {
+
+    display: flex;
+    justify-content: flex-end;
 }
