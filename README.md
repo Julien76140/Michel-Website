@@ -1,4 +1,6 @@
 # Michel-Website
+
+ATTENTION LE DOSSIER .idea DOIT ETRE SUPPRIMER SINON PHPSTORM NE LE LIRA PAS .(dossier créer par VScode quand je travail sur mon autre pc )
 Le magnifique site de Michel le meilleure ami de Fred
 
 Le dossier _BDD contient la base de donnée michel.sql qui contient deux tables article et enigme
