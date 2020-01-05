@@ -17,6 +17,8 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./asset/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css"/>
+    <link rel="icon" type="image/jpg" href="./asset/image/logo.jpg" />
+
 
 <body>
 

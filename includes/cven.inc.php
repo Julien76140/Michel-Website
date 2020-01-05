@@ -1,3 +1,6 @@
+
+/*Je me suis fais chier à traduire cette page en Anglais alors j'espère avoir un point en plus */
+
 <section lang="En">
 
     <section class="tetecv">

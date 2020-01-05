@@ -1,6 +1,5 @@
 <h1>Mentions propres au site particulier </h1>
 
-
 <p style="padding: 20px;">Le particulier qui crée un site internet n'est pas obligé de révéler son identité. Il doit
     cependant communiquer à l'hébergeur de son site les éléments qui permettront de l'identifier en cas de besoin. Ces
     éléments d'identification sont couverts par le secret professionnel. Mais l'hébergeur du site internet a
@@ -38,8 +37,10 @@
     consentement des personnes concernées, du respect d'une obligation prévue par un texte, de l'exécution d'un contrat
     notamment)
     Droit d'introduire une réclamation auprès de la Cnil</p>
-
-
+<h1>RGPD</h1>
+ <p style="padding: 20px;">Les données récupérer seront uniquement accessible par notre organisme VDSS&VIST</p>
+<p style="padding: 20px;">Vous pouvez nous joindres <a href="./index.php?page=contactadmin">ici</a></p>
+<p style="padding: 20px;">Ces données ne serviront à rien </p>
 
 
 

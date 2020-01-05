@@ -1,5 +1,6 @@
 <section id="formcontact">
     <h1>Contact</h1>
+    <p style="padding: 20px;">Vous pouvez nous joindres <a href="./index.php?page=contactadmin">ici</a></p>
     <form method="POST" enctype='multipart/form-data' action="./includes/process.php"><!-- enctype OBLIGATOIRE car type FILE!-->
         <label>Nom :</label>
         <input type="text" name="nom" required/><br/>
