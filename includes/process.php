@@ -44,7 +44,7 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
     }
 
 
-    $requete = "INSERT INTO article (nom,prenom,mail,num,message,image) VALUES ('" . htmlspecialchars(addslashes(trim($_POST['nom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['prenom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['mail'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['num'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['texte'])), ENT_QUOTES) . "','" . $_FILES['photo']['name'] . "')";
+    $requete = "INSERT INTO article (nom,prenom,mail,num,message,image) VALUES ('" . htmlspecialchars(addslashes(trim($_POST['nom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['prenom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['mail'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['num'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['texte'])), ENT_QUOTES) . "','" .htmlspecialchars(addslashes(trim( $_FILES['photo']['name']))) . "')";
     $resultat = mysqli_query($connect, $requete);
     mysqli_close($connect);
 
