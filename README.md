@@ -8,10 +8,14 @@ L'asset contient le css du site +un dossier image pour les images de base du sit
 L'includes contient toute la structure du site .
 porcess.php et table.inc.php servent à insérer puis afficher les données de la BDD 
 
-puissance.inc.php contient un Jeu si tu répond bien à l'énigme posé (réponse en bas de ce fichier au cas où).
-Un puissance 4 coder en PHP le code source est accessible directemnt dans le dossier puissance 4 ou sur mon Git Hub : Julien76140
+puissance.inc.php contient un Jeu si tu y répond bien à l'énigme posé (réponse en bas de ce fichier au cas où).
+Un puissance 4 coder en PHP le code source est accessible directement dans le dossier puissance 4 ou sur mon Git Hub : Julien76140
 
+Les autres fichiers php sont juste du contenu pour le site (désolé pour les probables fautes et la divite).
 
+Comme demandé le fichier .gitignore avec les paramètres suivants : Windows MacOs phpStorm et Linux
 
-/*La réponse est : michel 
+Et Le fichier home index.php
+
+/*  La réponse est : michel  */ 
  
