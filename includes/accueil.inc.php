@@ -4,13 +4,14 @@
     <h1>Voyage dans le système solaire et voyage interstellaire </h1>
 
     <h2>Présentation du congrès </h2>
-    <p id="pres">&nbsp;La Terre ne tourne pas seule autour du Soleil. D’autres planètes accompagnées de leurs
+    <p id="pres" class="surligne">&nbsp;La Terre ne tourne pas seule autour du Soleil. D’autres planètes accompagnées de leurs
         satellites, des astéroïdes et comètes voyagent avec elle. Ces astres présentent des points communs ou des
         différences avec notre planète, mais aucune n’est semblable : elles ont toutes une identité particulière.Tout un
         monde multiple et varié que cette séance vous invite à découvrir à travers un périple de 6 milliards de
         kilomètres.<abbr title=" Voyage dans le système solaire et voyage interstellaire">VDSS&VIST</abbr> est un
         nouveau congrés scientifiques qui a pour but de vous présentez des projets prometteurs sur le thème des voyage
-        spaciaux mais aussi de la colonisation de l'homme sur Mars.</p>
+        spaciaux mais aussi de la colonisation de l'homme sur Mars ce site est une courte présentation des projets qui y
+        seront présenté.</p>
 
     <h1 id="titrepres">Présentation et résumer des projets</h1>
 
@@ -18,7 +19,7 @@
     <div class="row"><!--aligne sur une ligne mais j'aurais pu utiliser float left ou display inline-block ect !-->
         <div class="col-lg-4 ">
 
-            <section class="break">
+            <section class="break surligne">
 
                 <img src="./asset/image/breakth1.jpg" alt="image illustration du projet">
 
@@ -41,7 +42,7 @@
 
         <div class="col-lg-4">
 
-            <section class="mars">
+            <section class="mars surligne">
                 <img src="./asset/image/mars1.jpg" alt="">
 
                 <h3>Mission habité vers Mars (NASA)</h3>
@@ -59,7 +60,7 @@
         </div>
 
         <div class="col-lg-4">
-            <section class="colo">
+            <section class="colo surligne">
                 <img src="./asset/image/colo1.jpg" alt="image colonisation">
 
                 <h3>Colonisation de Mars par Space X</h3>
@@ -75,7 +76,7 @@
 
     <div class="row">
         <div class="col-lg-6">
-            <section class="habitation">
+            <section class="habitation surligne">
                 <img src="./asset/image/habmars1.jpg" alt="habitation mars">
 
 
@@ -88,7 +89,7 @@
             </section>
         </div>
         <div class="col-lg-6">
-            <section class="terraformation">
+            <section class="terraformation surligne">
 
                 <img src="./asset/image/terra1.jpg" alt="terraformation">
 

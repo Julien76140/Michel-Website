@@ -19,7 +19,7 @@
 
     $requete = "SELECT * FROM article";
 
-    echo "<div class='col-lg-12'> <table><tr><td>Identifiant</td><td>Nom</td><td>Prénom</td><td>Mail</td><td>Téléphone</td><td>Message</td><td>Image</td></tr><tr>";
+    echo "<div class='container-fluid'><div class='col-lg-12'> <table><tr><td>Identifiant</td><td>Nom</td><td>Prénom</td><td>Mail</td><td>Téléphone</td><td>Message</td><td>Image</td></tr><tr>";
 
 
     if ($resultat = mysqli_query($connect, $requete)) {
@@ -44,10 +44,9 @@
         echo "Erreur lors de l'affichage";
     }
 
-    echo "</table></div>";
+    echo "</table></div></div>";
 
 
-    echo "</div>";
 
 
     ?>

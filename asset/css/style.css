@@ -1,11 +1,12 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
 
 body {
     font-family: Arial, SansSerif, "Comic Sans MS";
-    font-size: 22px;
+    font-size: 18px;
     line-height: 25px;
-    background: linear-gradient(ghostwhite, white);
     height: 100%;
+    background-color: #F3F3F3;
 }
 
 
@@ -15,6 +16,7 @@ header {
 
 
 nav {
+    -webkit-box-shadow: 0px 2px 10px black;
     box-shadow: 0px 2px 10px black;
     background-color: whitesmoke;
 }
@@ -32,7 +34,13 @@ nav {
 @media screen and (min-width: 991px) {
 
     .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+
+        -webkit-box-pack: end;
+
+        -ms-flex-pack: end;
 
         justify-content: flex-end;
     }
@@ -160,9 +168,11 @@ p {
     border-radius: 10px;
 }
 
-#formcontact input{
+#formcontact input {
 
     display: block;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +189,7 @@ p {
 
 }
 
-#aventurier {
+#aventurier, .desmars {
     margin-top: 100px;
 
 }
@@ -212,6 +222,16 @@ p {
 
 @media screen and  (max-width: 991px) {
 
+    #pied {
+        background-color: whitesmoke;
+        padding: 20px;
+        width: 100%;
+        margin-top: 50px;
+        border-top: solid black 2px;
+        position: relative;
+        bottom: -150vh;
+
+    }
 
     h2, h3 {
 
@@ -257,7 +277,7 @@ p {
 }
 
 #formcontact {
-margin-top: 100px;
+    margin-top: 100px;
     margin-bottom: 150px;
 
 }
@@ -273,21 +293,29 @@ table td {
     margin-top: 100px;
 
 }
-label,textarea{
 
-display: flex;
+#formcontact label, textarea {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 
 }
-label{
+
+label {
 
     padding: 3px;
 }
 
 
-input ,textarea{
+#formcontact input, textarea {
 
     border: none;
     outline: none;
@@ -296,29 +324,46 @@ input ,textarea{
     border-bottom: 2px solid black;
 }
 
-#valider{
+#valider {
 
     width: 100%;
     height: 50px;
-    background-image: linear-gradient(120deg,#3498DB,#8E44AD);
+    background-image: -o-linear-gradient(330deg, #3498DB, #8E44AD);
+    background-image: linear-gradient(120deg, #3498DB, #8E44AD);
     background-size: 200%;
     color: white;
 
 }
-#valider:hover{
 
-animation-duration: .5s;
+#valider:hover {
+
+    -webkit-animation-duration: .5s;
+
+    animation-duration: .5s;
+    -webkit-animation-name: valide;
     animation-name: valide;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 
 }
 
-@keyframes valide {
-    from{
-background-position: left;
+@-webkit-keyframes valide {
+    from {
+        background-position: left;
     }
 
-    to{
+    to {
+        background-position: right;
+
+    }
+}
+
+@keyframes valide {
+    from {
+        background-position: left;
+    }
+
+    to {
         background-position: right;
 
     }
@@ -344,14 +389,37 @@ table {
     height: 200px;
 }
 
-#pdf,#langue,#language,#pdfen {
+#pdf, #langue, #language, #pdfen {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
 }
 
 #droit {
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+}
+
+.surligne:hover {
+    background-color: #E6CDED;
+    -webkit-box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
+
+}
+
+.article p::first-letter, .desmars p::first-letter, .descolo p::first-letter, .desbreak p::first-letter, .deshab p::first-letter, .de p::first-letter {
+
+    font-size: 1.5em;
+    color: darkblue;
 }

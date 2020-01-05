@@ -1,8 +1,8 @@
-<div class="container-fluid desbreak">
+<div class="container-fluid ">
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-6 desbreak">
 
-            <section id="desbreak1">
+            <section id="desbreak1" class="surligne">
 
                 <img src="./asset/image/terra2.jpg" width="100%" height="300px">
                 <h1>Terraformation

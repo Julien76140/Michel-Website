@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4">
 
-            <section id="desbreak1">
+            <section id="desbreak1" class="surligne">
 
                 <img src="./asset/image/breakth4.jpg" alt="image illustration">
                 <p>L’initiative Breakthrough Starshot est un projet ambitieux visant à envoyer des centaines de
@@ -24,7 +24,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="desbreak2">
+            <section id="desbreak2" class="surligne">
 
                 <img src="./asset/image/breakth2.jpg" alt="image illustration">
                 <h1>Un projet ambitieux semé d’obstacles techniques</h1>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="desbreak3">
+            <section id="desbreak3" class="surligne">
 
                 <img src="./asset/image/breakth3.jpg" alt="image illustration">
                 <h1>Voile et laser : atteindre Mars en seulement quelques jours</h1>

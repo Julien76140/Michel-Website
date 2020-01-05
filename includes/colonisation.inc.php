@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4">
 
-            <section id="desmars1">
+            <section id="desmars1" class="surligne">
 
                 <img src="./asset/image/colo2.jpg" alt="image illustration mars">
                 <h1>Colonisation de Mars Space X</h1>
@@ -15,7 +15,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="desmars2">
+            <section id="desmars2" class="surligne">
 
                 <img src="./asset/image/colo2.jpg" alt="image illustration mars">
                 <h1>Pourquoi Mars ?</h1>
@@ -30,7 +30,7 @@
 
         <div class="col-lg-4">
 
-            <section id="desmars3">
+            <section id="desmars3" class="surligne">
 
                 <img src="./asset/image/colo3.jpg" alt="image illustration mars">
                 <h1>Dans combien de temps ?</h1>

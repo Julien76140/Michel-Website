@@ -19,6 +19,7 @@
                     <p>Adresse email: <a
                                 href="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">Elon.musk@bolbec.bo</a>
                     </p>
+                </section>
             </div>
 </section>
 
@@ -81,9 +82,8 @@
 </div>
 
 
-<h1>FORMATION
-    <hr/>
-</h1>
+<h1>FORMATION</h1>
+<hr/>
 <div class="row">
     <div class="col-lg-5">
         <section class="annee">
@@ -110,10 +110,8 @@
     </div>
 </div>
 
-<h1 id="titrexp">EXPERIENCE PERSONNELLE
-    <hr/>
-</h1>
-
+<h1 id="titrexp">EXPERIENCE PERSONNELLE</h1>
+<hr/>
 <div class="row">
     <div class="col-lg-5">
         <section class="annees">
@@ -153,3 +151,4 @@
 <a id="pdf" href="https://www.dropbox.com/s/10co25fw0yvq127/cv.pdf?dl=0">Télécharger la version PDF moche </a>
 
 <a id="langue" href="./index.php?page=cven">CV en Anglais </a>
+</div>

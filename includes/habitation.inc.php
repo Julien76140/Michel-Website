@@ -1,7 +1,7 @@
 <div class="container-fluid deshab">
     <div class="row">
         <div class="col-lg-4 centrehab">
-            <section id="deshab1">
+            <section id="deshab1" class="surligne">
                 <img src="./asset/image/habmars2.jpg" alt="illustration">
                 <h1>habitation Marsienne</h1>
                 <p>Alors que l’agence spatiale européenne imagine imprimer des habitats en 3D sur la Lune, la NASA se
@@ -15,7 +15,7 @@
 
         <div class="col-lg-12">
 
-            <section id="descolo2">
+            <section id="descolo2" class="surligne">
                 <h1>Le concours</h1>
 
                 <p>La NASA a lancé il y quelques années un concours dont l’objectif est d’imaginer des habitations
@@ -29,7 +29,7 @@
 
         <div class="col-lg-4">
 
-            <section id="descolo3">
+            <section id="descolo3" class="surligne">
 
                 <h1>1ÈRE PLACE : ZOPHERUS</h1>
                 <p>Cet atterrisseur a la forme d’une araignée qui intègre en son sein une imprimante 3D.</p><br/>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="descolo4">
+            <section id="descolo4" class="surligne">
 
                 <h1>2ÈME PLACE : MARSHA DE AI SPACEFACTORY</h1>
                 <p>Prenant la forme d’un œuf, cette structure dotée d’une double coque est parfaitement adaptée pour
@@ -57,7 +57,7 @@
         </div>
         <div class="col-lg-4">
 
-            <section id="descolo5">
+            <section id="descolo5" class="surligne">
 
                 <h1>3ÈME PLACE : KAHN-YATES</h1>
                 <p>Cette maison ovale possède une coque perforée qui laisse passer la lumière.</p><br/>
@@ -71,7 +71,7 @@
 
         <div class="col-lg-6">
 
-            <section id="descolo6">
+            <section id="descolo6" class="surligne">
 
                 <h1>4ÈME PLACE : SEARCH + / APIS COR</h1>
                 <p>Une maisonette créer poar l'entreprsise Apis Cor.</p><br/>
@@ -85,7 +85,7 @@
 
         <div class="col-lg-6">
 
-            <section id="descolo7">
+            <section id="descolo7" class="surligne">
 
                 <h1>5ÈME PLACE : UNIVERSITÉ DU NORTHWESTERN</h1>
                 <p>Cette structure tout en arrondis est construite sur une base gonflable.</p><br/>

@@ -12,7 +12,6 @@
     <label>Réponse :</label>
     <input type="text" name="solution"/>
     <input type="submit" name="Valider"/>
-
     </form>
 </section>
 
