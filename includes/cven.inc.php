@@ -1,7 +1,7 @@
 
 /*Je me suis fais chier à traduire cette page en Anglais alors j'espère avoir un point en plus */
 
-<section lang="En">
+<section lang="en"><!--Changement de langue pour passer en Anglais !-->
 
     <section class="tetecv">
 
