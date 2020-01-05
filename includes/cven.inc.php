@@ -20,8 +20,7 @@
                 <div class="col-lg-3">
                     <section id="information">
                         <p>Phone : <a href="tel:+33252525252525">02.25.25.25.25.25.25.25</a></p>
-                        <p>Adress : <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
-                        </p>
+                        <address><p>Adresse : <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a></p></address>
                         <p>email: <a
                                     href="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">Elon.musk@bolbec.bo</a>
                         </p>
