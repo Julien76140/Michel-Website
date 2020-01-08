@@ -78,7 +78,7 @@ if(position_colone()!=NULL){
 
 }
 
-echo "<embed src=soundeffect.mp3 autostart=true loop=false hidden=true></embed>";
+echo "<embed src=../asset/soundeffect/soundeffect.mp3 autostart=true loop=false hidden=true></embed>";
 
 
 $fp = fopen ("../asset/texte/matrice.txt", "w");// écrit le resultat dans le fichier matrice.txt pour le garder en memoire ;

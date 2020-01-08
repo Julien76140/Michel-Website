@@ -20,13 +20,13 @@
 
   <form method="POST" action="./jeu.php">
 
-   <label>1</label>  <input type="radio" name="number" value="0" />
-   <label>2</label>  <input type="radio" name="number" value="1"/>
-   <label>3</label>  <input type="radio" name="number" value="2"/>
-   <label>4</label>  <input type="radio" name="number" value="3"/>
-   <label>5</label>  <input type="radio" name="number" value="4"/>
-   <label>6</label>  <input type="radio" name="number" value="5"/>
-   <label>7</label>  <input type="radio" name="number" value="6"/><br/>
+   <label>1 </label>  <input type="radio" name="number" value="0" />
+   <label>2 </label>  <input type="radio" name="number" value="1"/>
+   <label>3 </label>  <input type="radio" name="number" value="2"/>
+   <label>4 </label>  <input type="radio" name="number" value="3"/>
+   <label>5 </label>  <input type="radio" name="number" value="4"/>
+   <label>6 </label>  <input type="radio" name="number" value="5"/>
+   <label>7 </label>  <input type="radio" name="number" value="6"/><br/>
    <input type="submit" name="submit" value="Choisir cette colone !" />
    <input type="submit" name="reset" value="Rejouez !"/>
 
