@@ -16,7 +16,7 @@ if (isset($_POST['Valider'])) {
 
             if ($donnees['solution'] == $_POST['solution']) {
 
-                header('Location:./includes/puissance 4/index.php  ');
+                header('Location:./puissance 4/index.php  ');
             } else {
                 echo " <p>Mauvaise réponse !</p>";
                 break;
