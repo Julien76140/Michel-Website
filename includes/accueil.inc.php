@@ -3,7 +3,7 @@
 
     <h1>Voyage dans le système solaire et voyage interstellaire </h1>
 
-    <h2>Présentation du congrès </h2>
+    <h2>Présentation du congrès</h2>
     <p id="pres" class="surligne">&nbsp;La Terre ne tourne pas seule autour du Soleil. D’autres planètes accompagnées de leurs
         satellites, des astéroïdes et comètes voyagent avec elle. Ces astres présentent des points communs ou des
         différences avec notre planète, mais aucune n’est semblable : elles ont toutes une identité particulière.Tout un
