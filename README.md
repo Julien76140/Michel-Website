@@ -13,7 +13,7 @@ L'includes contient toute la structure du site .
 process.php et table.inc.php servent à insérer puis afficher les données de la BDD 
 
 puissance.inc.php contient un Jeu si tu répond bien à l'énigme posé (réponse en bas de ce fichier au cas où).
-Un puissance 4 join coder en PHP le code source est accessible directement dans le dossier puissance 4 ou sur mon Git Hub : Julien76140
+Un puissance 4 join coder en PHP le code source est accessible directement sur mon Git Hub : Julien76140
 
 Les autres fichiers php sont juste du contenu pour le site (désolé pour les probables fautes et la divite).
 
