@@ -20,27 +20,7 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
 
     }
 
-
-    if ($_FILES['photo']['error']) {
-        switch ($_FILES['photo']['error']) {
-            case 1://upload err ini size
-                echo "La taille du fichier est plus grande que la limite serveur ";
-                break;
-            case 2://upload err form size
-                echo "La taille du fichier est plus grande que la limite formulaire ";
-                break;
-            case 3://upload err partial
-                echo "Erreur pendant le transfert";
-                break;
-            case 3://upload err no fil
-                echo "Fichier que vous envoyez est de taille null";
-                break;
-
-        }
-
-
-    } else {
-        if (isset($_FILES['photo']['name']) && ($_FILES['photo']['error'] == UPLOAD_ERR_OK)) {
+    if (isset($_FILES['photo']['name']) && ($_FILES['photo']['error'] == UPLOAD_ERR_OK)) {
 
             $chemin = './asset/image/';// copie l'image dans le repertoire image qui se trouve dans asset
             move_uploaded_file($_FILES['photo']['tmp_name'], $chemin . $_FILES['photo']['name']);
@@ -50,7 +30,7 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
 
             echo "Le fichier n'a pu être copier dans le bon répertoire";
         }
-    }
+
 
 
     $requete = "INSERT INTO article (nom,prenom,mail,num,message,image) VALUES ('" . htmlspecialchars(addslashes(trim($_POST['nom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['prenom'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['mail'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['num'])), ENT_QUOTES) . "','" . htmlspecialchars(addslashes(trim($_POST['texte'])), ENT_QUOTES) . "','" .htmlspecialchars(addslashes(trim( $_FILES['photo']['name']))) . "')";
@@ -59,7 +39,10 @@ if (isset($_POST['submit']) && !empty($_POST['nom']) && !empty($_POST['prenom'])
 
     header('Location:./index.php?page=table');
 
-} else {
+}
+
+else {
+    $extension=pathinfo($_FILES['photo']['name'],PATHINFO_EXTENSION);
 
  $error=array();
 
@@ -88,11 +71,36 @@ if ($_POST['prenom']==="" || empty($_POST['prenom'])) {
     array_push($error,"Veuillez saisir un Message valide !");
  
  }
- if (count($error)>0) {
+
+    if($extension !== "jpg" && $extension !== "gif" && $extension !== "png" && $extension !== "jpeg"){
+
+      array_push($error,"Veuillez saisir un format d'image valide  (jpg,gif,png ou jpeg) !");
+
+
+  }
+    if ($_FILES['photo']['error']) {
+        switch ($_FILES['photo']['error']) {
+            case 1://upload err ini size
+                array_push($error, "La taille du fichier est plus grande que la limite serveur !");
+                break;
+            case 2://upload err form size
+                array_push($error, "La taille du fichier est plus grande que la limite autoriser !");
+                break;
+            case 3://upload err partial
+                array_push($error, "Erreur durant le transfert !");
+                break;
+            case 3://upload err no fil
+                array_push($error, "Le fichier que vous envoyez est de taille NULL !");
+                break;
+
+        }
+    }
+
+        if (count($error)>0) {
 
     echo "<section id=erreur>";
 
-     for ($i=0;$i<count($error); $i++) { 
+     for ($i=0;$i<count($error); $i++) {
 
 
 echo "<p class=erreur>".$error[$i]."</p>";  
