@@ -86,8 +86,11 @@ p {
 }
 
 #imgelon {
+
+    width:200px;
+    height:200px;
     margin-top: 20px;
-    border-radius: 350px;
+    border-radius: 200px;
 }
 
 .tetecv {
