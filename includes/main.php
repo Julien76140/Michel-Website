@@ -9,15 +9,15 @@
         $page = 'accueil';
     }
 
-    $list = glob("./includes/*.inc.php");
-    $page = "./includes/" . $page . ".inc.php";
+    $list = glob("includes/*.inc.php");
+    $page = "includes/" . $page . ".inc.php";
 
     if (in_array($page, $list)) {
 
         include_once $page;
     } else {
 
-        include_once "./includes/accueil.inc.php";
+        include_once "includes/accueil.inc.php";
     }
 
 

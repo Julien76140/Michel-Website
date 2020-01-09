@@ -430,3 +430,21 @@ abbr{
 
     font-weight: 600;
 }
+
+.erreur{
+
+
+    color: red;
+}
+#erreur{
+
+
+margin-top: 10vh;
+}
+
+#erreur p{
+
+
+    text-align: center;
+
+}

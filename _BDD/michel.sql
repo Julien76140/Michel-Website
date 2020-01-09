@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  jeu. 09 jan. 2020 à 19:06
--- Version du serveur :  10.1.38-MariaDB
--- Version de PHP :  7.3.3
+-- Généré le :  mer. 08 jan. 2020 à 16:02
+-- Version du serveur :  10.4.8-MariaDB
+-- Version de PHP :  7.3.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -54,8 +54,7 @@ CREATE TABLE `enigme` (
 --
 
 INSERT INTO `enigme` (`id`, `solution`) VALUES
-(2, 'michel'),
-(6, 'Michel');
+(2, 'michel');
 
 --
 -- Index pour les tables déchargées
@@ -81,7 +80,7 @@ ALTER TABLE `enigme`
 -- AUTO_INCREMENT pour la table `article`
 --
 ALTER TABLE `article`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT pour la table `enigme`
