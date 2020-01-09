@@ -4,7 +4,7 @@
 body {
     font-family: Arial, SansSerif, "Comic Sans MS";
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     height: 100%;
     background-color: #F3F3F3;
 }
@@ -19,16 +19,25 @@ nav {
     -webkit-box-shadow: 0px 2px 10px black;
     box-shadow: 0px 2px 10px black;
     background-color: whitesmoke;
+    opacity: 90%;
 }
+
+
 
 .dropdown-menu {
     background-color: whitesmoke;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 100%;
 }
 
 .dropdown-menu a {
     border-bottom: black solid 3px;
+}
+#pied span a,#droit a{
+    margin-right: 10px;
+    padding: 2px;
+    color:black;
+
 }
 
 @media screen and (min-width: 991px) {
@@ -327,7 +336,7 @@ label {
     border-bottom: 2px solid black;
 }
 
-#valider {
+#valider{
 
     width: 100%;
     height: 50px;
@@ -341,7 +350,6 @@ label {
 #valider:hover {
 
     -webkit-animation-duration: .5s;
-
     animation-duration: .5s;
     -webkit-animation-name: valide;
     animation-name: valide;
@@ -415,7 +423,7 @@ table {
 }
 
 .surligne:hover {
-    background-color: #E6CDED;
+    background-color: white;
     -webkit-box-shadow: 10px 10px 5px black;
     box-shadow: 10px 10px 5px black;
 

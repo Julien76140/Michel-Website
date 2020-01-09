@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css"/>
     <link rel="icon" type="image/jpg" href="./asset/image/logo.jpg" />
 
+    <script src="https://kit.fontawesome.com/cff0a300c6.js" crossorigin="anonymous"></script>
 
 <body>
 

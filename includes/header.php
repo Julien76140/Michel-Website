@@ -23,9 +23,7 @@
                             Vitae</a></li>
                     <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=contact">Contact</a>
                     </li>
-                    <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=mention">Mentions
-                            légales</a></li>
-                    <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=puissance">Jeux
+                    <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=puissance">Jeu
                             bonus</a></li>
                     <li class="nav-item font-weight-bold"><a class="nav-link" href="index.php?page=table">Table </a>
                     </li>
