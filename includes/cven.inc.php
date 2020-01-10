@@ -18,17 +18,17 @@
                     <section id="information">
                         <p>
                             Phone :
-                            <a href="tel:+33252525252525">02.25.25.25.25.25.25.25</a>
+                            <a target="_blank" href="tel:+33252525252525">02.25.25.25.25.25.25.25</a>
                         </p>
                         <address>
                             <p>
                                 Adresse :
-                                <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
+                                <a target="_blank" href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
                             </p>
                         </address>
                         <p>
                             email:
-                            <ahref="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">
+                            <a target="_blank" href="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">
                             Elon.musk@bolbec.bo
                             </a>
                         </p>
@@ -142,6 +142,6 @@
     </section>
     </div>
     </div>
-    <a id="pdfen" href="https://www.dropbox.com/s/useahrdc7a0si4e/cven.pdf?dl=0">Downlaod the ugly PDF version inEnglish </a>
-    <a id="language" href="./index.php?page=cv">CV in French </a>
+    <a id="pdfen" target="_blank" href="https://www.dropbox.com/s/useahrdc7a0si4e/cven.pdf?dl=0">Downlaod the ugly PDF version inEnglish </a>
+    <a id="language" target="_blank" href="./index.php?page=cv">CV in French </a>
 </section>

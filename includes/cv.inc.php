@@ -15,17 +15,17 @@
                 <section id="information">
                     <p>
                         Téléphone :
-                        <a href="tel:+33252525252525">02.25.25.25.25.25.25.25</a>
+                        <a target="_blank" href="tel:+33252525252525">02.25.25.25.25.25.25.25</a>
                     </p>
                     <address>
                         <p>
                             Adresse :
-                            <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
+                            <a target="_blank" href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
                         </p>
                     </address>
                     <p>
                         Adresse email:
-                        <ahref="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">
+                        <a target="_blank" href="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">
                         Elon.musk@bolbec.bo
                         </a>
                     </p>
@@ -37,7 +37,7 @@
     <section id="description">
         <p>
             La première question qu'on se pose en voyant qu'il y a un faux CV d'Elon Musk dans un site de congrèsscientifique et "Qu'est ce que ça fou là ?" , La réponse est simple j'en sais rien je dois en créerun,Maistu vas me dire pourquoi faire tout ça si c'est pour au final ça ne correspondent pas au reste dusite ? Bahen fait j'essaye désespérément gagner en contenu pour remplir ce foutu CV qui n'a pas lieu d'être etquisera probablement
-            <abbrtitle="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici">
+            <abbr title="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici">
             HS
             </abbr>
             par rapport aux reste du site . Et aussi parceque j'ai pas de foutu idée pour un CVdonc jefais comme je peux.
@@ -140,8 +140,8 @@
 </section>
 </div>
 </div>
-<a id="pdf" href="https://www.dropbox.com/s/10co25fw0yvq127/cv.pdf?dl=0">Télécharger la version PDF moche
+<a id="pdf"  target="_blank" href="https://www.dropbox.com/s/10co25fw0yvq127/cv.pdf?dl=0">Télécharger la version PDF moche
 </a>
-<a id="langue" href="./index.php?page=cven">CV en Anglais
+<a id="langue" target="_blank" href="./index.php?page=cven">CV en Anglais
 </a>
 </div>
