@@ -1,48 +1,49 @@
 <section class="tetecv">
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2 musk">
                 <img id="imgelon" src="./asset/image/elon.jpg" alt="Elon Musk"/>
             </div>
-
             <div class="col-lg-6">
                 <h1 id="titreelon">ELON</h1>
                 <h2 id="titremusk">MUSK</h2>
-                <p>"Parceque je le CROIVER"</p>
+                <p>
+                    "Parceque je le CROIVER"
+                </p>
             </div>
-
             <div class="col-lg-3">
                 <section id="information">
-                    <p>Téléphone : <a href="tel:+33252525252525">02.25.25.25.25.25.25.25</a></p>
-                    <address><p>Adresse : <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a></p></address>
-                    <p>Adresse email: <a
-                                href="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">Elon.musk@bolbec.bo</a>
+                    <p>
+                        Téléphone :
+                        <a href="tel:+33252525252525">02.25.25.25.25.25.25.25</a>
+                    </p>
+                    <address>
+                        <p>
+                            Adresse :
+                            <a href="https://goo.gl/maps/QwqXgo3DFpdvtDbH6">44 rue J'aime le café ,HOUGANG</a>
+                        </p>
+                    </address>
+                    <p>
+                        Adresse email:
+                        <ahref="https://actu.fr/normandie/bolbec_76114/violences-sur-arbitre-bolbec-joueur-football-havre-place-garde-vue_30357762.html">
+                        Elon.musk@bolbec.bo
+                        </a>
                     </p>
                 </section>
             </div>
 </section>
-
 </div>
-
-
 <div class="col-lg-12">
     <section id="description">
-        <p>La première question qu'on se pose en voyant qu'il y a un faux CV d'Elon Musk dans un site de congrès
-            scientifique et "Qu'est ce que ça fou là ?" , La réponse est simple j'en sais rien je dois en créer
-            un,Mais
-            tu vas me dire pourquoi faire tout ça si c'est pour au final ça ne correspondent pas au reste du
-            site ? Bah
-            en fait j'essaye désespérément gagner en contenu pour remplir ce foutu CV qui n'a pas lieu d'être et
-            qui
-            sera probablement <abbr
-                    title="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici">
-                HS</abbr> par rapport aux reste du site . Et aussi parceque j'ai pas de foutu idée pour un CV
-            donc je
-            fais comme je peux. </p>
+        <p>
+            La première question qu'on se pose en voyant qu'il y a un faux CV d'Elon Musk dans un site de congrèsscientifique et "Qu'est ce que ça fou là ?" , La réponse est simple j'en sais rien je dois en créerun,Maistu vas me dire pourquoi faire tout ça si c'est pour au final ça ne correspondent pas au reste dusite ? Bahen fait j'essaye désespérément gagner en contenu pour remplir ce foutu CV qui n'a pas lieu d'être etquisera probablement
+            <abbrtitle="HS=Hors Sujet mais j'utilise cette balise pour gagner des points elle sert à rien ici">
+            HS
+            </abbr>
+            par rapport aux reste du site . Et aussi parceque j'ai pas de foutu idée pour un CVdonc jefais comme je peux.
+        </p>
     </section>
 </div>
-
 <div class="row">
     <div class="col-lg-4">
         <section class="competence">
@@ -55,7 +56,6 @@
             </ul>
         </section>
     </div>
-
     <div class="col-lg-4">
         <section class="langue">
             <h1>Langues</h1>
@@ -67,7 +67,6 @@
             </ul>
         </section>
     </div>
-
     <div class="col-lg-4">
         <section class="logiciel">
             <h1>Logiciels et autres</h1>
@@ -80,8 +79,6 @@
         </section>
     </div>
 </div>
-
-
 <h1>FORMATION</h1>
 <hr/>
 <div class="row">
@@ -95,7 +92,6 @@
             </ul>
         </section>
     </div>
-
     <div class="col-lg-7">
         <section class="formation">
             <ul>
@@ -105,11 +101,8 @@
                 <li><p>ECOLE de la Connerie et des Idiots SUPERIEUR </p></li>
             </ul>
         </section>
-
-
     </div>
 </div>
-
 <h1 id="titrexp">EXPERIENCE PERSONNELLE</h1>
 <hr/>
 <div class="row">
@@ -122,7 +115,6 @@
             </ul>
         </section>
     </div>
-
     <div class="col-lg-7">
         <section class="entreprise">
             <ul>
@@ -131,24 +123,25 @@
                 <li>Créer des trucs qui marche ou pas chez SPACE X PDG DE CETTE ENTREPRISE</li>
             </ul>
         </section>
-
-
     </div>
 </div>
-
 <h1>CENTRE D'INTERETS</h1>
 <hr/>
 <section class="interet">
-    <p>Patin sur lave</p>
-    <p>Jongler avec des manettes PS4</p>
-    <p>Rien</p>
+    <p>
+        Patin sur lave
+    </p>
+    <p>
+        Jongler avec des manettes PS4
+    </p>
+    <p>
+        Rien
+    </p>
 </section>
 </div>
-
 </div>
-
-
-<a id="pdf" href="https://www.dropbox.com/s/10co25fw0yvq127/cv.pdf?dl=0">Télécharger la version PDF moche </a>
-
-<a id="langue" href="./index.php?page=cven">CV en Anglais </a>
+<a id="pdf" href="https://www.dropbox.com/s/10co25fw0yvq127/cv.pdf?dl=0">Télécharger la version PDF moche
+</a>
+<a id="langue" href="./index.php?page=cven">CV en Anglais
+</a>
 </div>
